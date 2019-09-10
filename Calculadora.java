@@ -6,7 +6,7 @@ import java.util.Scanner;
     Integer opcion;
     Integer resultado;
       do{
-      System.out.println("Ingrese su operación /n 1 para restar /n 2 para sumar /n 3 para dividir /n 4 para multiplicar y /n 5 para salir");
+      System.out.println("Ingrese su operación /n 1 para restar /n 2 para sumar /n 3 para dividir /n 4 para multiplicar y /n 0 para salir");
         opcion = teclado.next();
       }while(opcion < 1 && opcion > 4)
       switch (opcion) {
